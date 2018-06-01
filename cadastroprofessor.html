@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <title>Cadastro</title>
+  </head>
+  
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <form class="form-horizontal" method="POST" action="cadastroprofessor.php">
+      <fieldset>
+
+<!-- Form Name -->
+        <legend>Cadastro Professor</legend>
+
+
+<!-- Appended Input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="matricula">Matricula</label>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input id="matricula" name="matricula" class="form-control" placeholder="matricula" type="text" required="">
+            </div>
+          </div>
+        </div>
+<!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="nome">Nome</label>  
+          <div class="col-md-6">
+          <input id="nome" name="nome" type="text" placeholder="seu nome" class="form-control input-md"> 
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="email">Email</label>  
+          <div class="col-md-6">
+          <input id="email" name="email" type="text" placeholder="seu email" class="form-control input-md">
+          </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="senha">Senha</label>
+          <div class="col-md-6">
+            <input id="senha" name="senha" type="senha" placeholder="crie uma senha" class="form-control input-md" required="">
+            <span class="help-block">(crie uma senha)</span>
+          </div>
+        </div>
+
+            
+        <!-- Button (Double) -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="cadastrar"></label>
+          <div class="col-md-8">
+            <button type="submit" id="cadastrar" name="cadastrar" class="btn btn-success">Cadastrar</button>
+            <button type="reset" id="Cancelar" name="Cancelar" class="btn btn-danger">Cancelar</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+
+</body>
+</html>
+  
+ 
+  
